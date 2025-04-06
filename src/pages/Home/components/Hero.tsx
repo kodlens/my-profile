@@ -6,7 +6,7 @@ export default function() {
         <div className=''>
           <div className='text-2xl'>Hello, I am</div>
           <div className='font-bold text-4xl mb-2'>ETIENNE WAYNE</div>
-          <div className='text-xl mb-4'>Web Developer</div>
+          <div className='text-xl mb-4'>I am Web, Dekstop and Mobile Developer</div>
           
           <div className='flex gap-3'>
             <button className=' bg-[#ffa688] 

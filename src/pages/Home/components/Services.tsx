@@ -13,10 +13,12 @@ export default function Services() {
         </div>
 
 
-        <div className="flex flex-col items-center gap-y-6 md:flex-row md:justify-evenly">
+        <div className="flex flex-col items-center md:flex-row md:justify-center gap-6">
+            
             <div className=" border-2 border-orange-primary 
                 flex flex-col h-[200px] w-[200px] 
-                justify-center items-center">
+                justify-center items-center
+                hover:border-6 ease-in-out duration-150">
                 <div className="mb-2">
                     <Web height={'100px'} width={"100px"} fill={"#FFA688"} />
                 </div>
@@ -28,23 +30,25 @@ export default function Services() {
 
             <div className=" border-2 border-orange-primary 
                 flex flex-col h-[200px] w-[200px] 
-                justify-center items-center">
+                justify-center items-center
+                hover:border-6 ease-in-out duration-150">
                 <div className="mb-4">
                     <Desktop height={'80px'} width={"80px"} fill={"#FFA688"} />
                 </div>
-                <div className="font-bold text-orange-primary">
-                    DESKTOP APPLICATION
+                <div className="font-bold text-orange-primary text-center">
+                    DESKTOP APP DEVELOPEMENT
                 </div>
             </div>
 
             <div className=" border-2 border-orange-primary 
                 flex flex-col h-[200px] w-[200px] 
-                justify-center items-center">
+                justify-center items-center
+                hover:border-6 ease-in-out duration-150">
                 <div className="mb-2">
                     <Mobile height={'100px'} width={"100px"} fill={"#FFA688"} />
                 </div>
-                <div className="font-bold text-orange-primary">
-                    MOBILE APPLICATION
+                <div className="font-bold text-orange-primary text-center">
+                    MOBILE APP DEVELOPEMENT
                 </div>
 
             </div>
