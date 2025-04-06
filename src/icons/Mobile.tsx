@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Mobile( { height, width, fill} : { height:string, width:string,fill:string } ) {
   return (
     <>
