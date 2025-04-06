@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className='flex justify-between px-10 py-5'>
+    <div className='flex justify-between px-4 lg:px-0 py-5 max-w-5xl mx-auto'>
         <Logo />
 
         <div className='flex gap-4 font-bold'>

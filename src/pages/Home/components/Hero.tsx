@@ -22,7 +22,7 @@ export default function() {
           </div>
         </div>
 
-        <div>
+        <div className="">
           <img height={300} src="/images/hm2.png" alt="profile picture" />
         </div>
       </div>
